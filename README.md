@@ -3,7 +3,7 @@
 Hi. This is a random project. 
 There's two seperate views with the same features. I've used an image for a background 
 
-Resources: Google 
+Resources: Google/Google Search.
 
 Made on 24/12/21 
 
