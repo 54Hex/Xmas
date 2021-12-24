@@ -221,20 +221,20 @@ struct AlternativeView: View {
             }
             
             // hiding text?
-            Group {
-                // background 4 text.
-                Rectangle()
-                    .foregroundColor(CustomColour.lightw)
-                    .frame(width: 300, height: 50)
-                    .cornerRadius(10)
-                    .offset(y: 300)
-                // text
-                Text("Merry Christmas!")
-                    .font(.system(size: 30, weight: .medium, design: .rounded))
-                    .foregroundColor(CustomColour.pine)
-                    .offset(y: 300)
-
-            }
+//            Group {
+//                // background 4 text.
+//                Rectangle()
+//                    .foregroundColor(CustomColour.lightw)
+//                    .frame(width: 300, height: 50)
+//                    .cornerRadius(10)
+//                    .offset(y: 300)
+//                // text
+//                Text("Merry Christmas!")
+//                    .font(.system(size: 30, weight: .medium, design: .rounded))
+//                    .foregroundColor(CustomColour.pine)
+//                    .offset(y: 300)
+//
+//            }
             GeometryReader{_ in
                 
                 SpriteView(scene: SnowEffect(),options: [.allowsTransparency])
