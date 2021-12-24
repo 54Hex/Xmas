@@ -224,7 +224,7 @@ struct AlternativeView: View {
             Group {
                 // background 4 text.
                 Rectangle()
-                    .foregroundColor(CustomColour.lpink)
+                    .foregroundColor(CustomColour.lightw)
                     .frame(width: 300, height: 50)
                     .cornerRadius(10)
                     .offset(y: 300)

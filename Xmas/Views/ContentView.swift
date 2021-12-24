@@ -10,8 +10,8 @@ import SpriteKit
 
 struct ContentView: View {
     
-//    @State var name: String
-   
+    //    @State var name: String
+    
     
     var body: some View {
         // background
@@ -22,12 +22,12 @@ struct ContentView: View {
                 .scaledToFill()
                 .edgesIgnoringSafeArea(.all)
             
-                // stem
-                Rectangle()
-                    .foregroundColor(CustomColour.brown)
-                    .cornerRadius(15)
-                    .frame(width: 50, height: 100)
-                    .offset(y: 220)
+            // stem
+            Rectangle()
+                .foregroundColor(CustomColour.brown)
+                .cornerRadius(15)
+                .frame(width: 50, height: 100)
+                .offset(y: 220)
             
             Group {
                 // treeeee
@@ -36,7 +36,7 @@ struct ContentView: View {
                     .cornerRadius(10)
                     .frame(width: 300, height: 20)
                     .offset(y: 180)
-
+                
                 Rectangle()
                     .foregroundColor(CustomColour.darkg)
                     .cornerRadius(10)
@@ -100,7 +100,7 @@ struct ContentView: View {
                     .frame(width: 70, height: 10)
                     .rotationEffect(.degrees(180))
                     .offset(y: -220)
-                    
+                
                 Rectangle()
                     .foregroundColor(CustomColour.gold)
                     .cornerRadius(5)
@@ -125,7 +125,7 @@ struct ContentView: View {
             
             // hiding text
             Group {
-
+                
                 Rectangle()
                     .foregroundColor(CustomColour.lpink)
                     .frame(width: 300, height: 50)
@@ -136,13 +136,13 @@ struct ContentView: View {
                     .font(.system(size: 30, weight: .medium, design: .rounded))
                     .foregroundColor(CustomColour.pine)
                     .offset(y: 300)
-
+                
             }
             
             GeometryReader{_ in
                 
                 SpriteView(scene: SnowEffect(),options: [.allowsTransparency])
-
+                
             }
             .ignoresSafeArea()
         }
@@ -155,7 +155,7 @@ struct CustomColour {
     static let brown = Color("Brown")
     static let gold = Color("Gold")
     static let lpink = Color("Pinkish")
-
+    static let lightw = Color("White")
 }
 
 
