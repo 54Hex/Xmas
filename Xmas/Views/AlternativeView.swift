@@ -221,6 +221,7 @@ struct AlternativeView: View {
             }
             
             // hiding text?
+            //
 //            Group {
 //                // background 4 text.
 //                Rectangle()
